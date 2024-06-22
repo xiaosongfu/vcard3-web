@@ -132,8 +132,8 @@ async function showChargeModal() {
       <p>发卡行: {{cardBalance?.network}}</p>
       <p>卡号: {{cardBalance?.bin}}...{{cardBalance?.last4}}</p>
       <p>余额: ${{cardBalance?.balance.available}}</p>
-      <n-button type="error" @click="showCvvModal()">查看CVV</n-button>
-      <n-button type="info" @click="showChargeHistoryModal()">查看充值记录</n-button>
+      <n-button type="error" @click="showCvvModal()">查看CVV</n-button>&nbsp;&nbsp;&nbsp;&nbsp;
+      <n-button type="info" @click="showChargeHistoryModal()">查看充值记录</n-button>&nbsp;&nbsp;&nbsp;&nbsp;
       <n-button type="success" @click="showChargeModal()">充值</n-button>
     </div>
 
