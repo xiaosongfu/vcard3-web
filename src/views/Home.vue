@@ -52,7 +52,7 @@ async function goToCard(card: OnekeyCard) {
   await router.push({
     path: "/card",
     query: {
-      gmail: 'xs',// TODO card.gmail,
+      gmail: card.gmail,
       card_id: card.card_id,
       transfer_wallet: card.transfer_wallet,
     }

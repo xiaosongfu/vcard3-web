@@ -46,7 +46,7 @@ async function login() {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      wallet: "0x1111", // TODO,
+      wallet,
       message,
       signature,
     }),
